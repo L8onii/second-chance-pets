@@ -6,10 +6,24 @@ body {
 }
 
 header {
+    margin: none;
+    padding: none;
     font-size: .5rem;
     text-align: center;
     justify-content: center;
 
+}
+
+.navbar {
+    width: 80%;
+    /* margin: 5px 5px; */
+    /* padding: 10px 10px; */
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
 }
 
 .mission-statement{
@@ -30,7 +44,7 @@ header {
 
 .topBanner img {
     height: 150px;
-    width: 100px;
+    width: 90%;
     justify-content: center;
 }
 
@@ -40,4 +54,12 @@ header {
     width: 100px;
     justify-content: center;
     display: none;
+}
+
+.petInfo {
+    width: 95%;
+    height: 350px;
+    color: black;
+    font-size: larger;
+    background-image: url(/photos/test.jpg);
 }
