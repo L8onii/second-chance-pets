@@ -18,7 +18,7 @@
             <li><a href="#">FAQ</a></li>
         </ul>
     </div>
-        <h2 class="mission-statement">Our Mission is to give pets a second chance on life with a loving family...more to come</h2>
+        <h2 class="mission-statement">Our mission is to help give shelter animals a second chance by connecting them with loving families. We believe every animal deserves a life beyond the cage — one filled with care, companionship, and a forever home.</h2>
             <div class="bannerAndPhotos">
                 <div class="catPhoto">
                     <img src="/photos/orange-tabby.jpg">
@@ -30,15 +30,64 @@
                     <img src="/photos/chocolate-labrador.jpg">
                 </div>
             </div>
+            <div class="inputForm">
+                <form>
+                    <label for="animalType">Select Your Animal Type</label><br>
+                    <input type="radio" id="animalType" name="animalType">Cat
+                    <input type="radio" id="animalType" name="animalType">Dog
+                    <input type="radio" id="animalType" name="animalType">Cat or Dog
+                    <br>
+                    <br>
+                    <label for="genderType">Select Gender</label><br>
+                    <input type="radio" id="genderType" name="genderType">Male
+                    <input type="radio" id="genderType" name="genderType">Female
+                    <input type="radio" id="genderType" name="genderType">Male or Female
+                    <br>
+                    <br>
+                    <label for="sizeType">Select Size</label><br>
+                    <input type="checkbox" id="sizeType" name="sizeType">Small
+                    <input type="checkbox" id="sizeType" name="sizeType">Medium
+                    <input type="checkbox" id="sizeType" name="sizeType">Large
+                    <input type="checkbox" id="sizeType" name="sizeType">Extra Large  
+                    <br>
+                    <br>
+                    <label for="ageType">Select Age</label><br>
+                    <input type="checkbox" id="ageType" name="ageType">Baby
+                    <input type="checkbox" id="ageType" name="ageType">Young
+                    <input type="checkbox" id="ageType" name="ageType">Adult
+                    <input type="checkbox" id="ageType" name="ageType">Senior
+                    <br>
+                    <br>
+                    <label for="location">Location (City, State or Zip Code):</label><br>
+                    <input type="text" id="location" name="location" placeholder="Louisville, KY or 40204"> 
+                    <br>
+                    <br>
+                    <label for="distance">Distance (Miles):</label><br>
+                    <input type="text" id="distance" name="distance" placeholder="50"><br>
+                    <br>
+                    <input type="submit">                              
+                </form> 
+                <br>
+                <br>
+            </div>
             <div class="petInfo">
                 Input box for JS fetch API for animals / Just using this as a placeholder currently! :)
             </div>
-            
-    <footer>
-        <p>2nd Chance Pets &copy; </p>
-        <p class="facebook"><img src="/photos/facebook logo.png"></p>
-        <p class="instagram"></p><img src="/photos/instagram.jpg"></p>
-        <p class="xTwitter"><img src="/photos/x logo.jpg"></p>
+<footer class="footer">
+  <p>2nd Chance Pets &copy;</p>
+    <div class="socials">
+        <a href="https://facebook.com" target="_blank">
+        <img src="/photos/facebook logo.png" alt="Facebook" />
+        </a>
+        <a href="https://instagram.com" target="_blank">
+        <img src="/photos/instagram.jpg" alt="Instagram" />
+        </a>
+        <a href="https://twitter.com" target="_blank">
+        <img src="/photos/x logo.jpg" alt="X (Twitter)" />
+        </a>
+    </div>
+</footer>
+
     </footer>
 </body>
 </html>
