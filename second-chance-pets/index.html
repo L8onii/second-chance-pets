@@ -30,41 +30,49 @@
                     <img src="/photos/chocolate-labrador.jpg">
                 </div>
             </div>
-            <div class="inputForm">
-                <form>
-                    <label for="animalType">Select Your Animal Type</label><br>
-                    <input type="radio" id="animalType" name="animalType">Cat
-                    <input type="radio" id="animalType" name="animalType">Dog
-                    <input type="radio" id="animalType" name="animalType">Cat or Dog
+            <div class="inputFormDiv">
+                <form class="inputForm">
+                    <p>Animal Type:</p>
+                    <div class="animalTypes">
+                        <br>
+                        <input type="checkbox" id="catType" name="animalType" value="cat">Cat
+                        <input type="checkbox" id="dogType" name="animalType" value="dog">Dog
+                    </div>
                     <br>
+                    <p>Gender:</p>
+                    <div class="animalGender">
+                        <input type="checkbox" id="maleType" name="genderType" value="male">Male
+                        <input type="checkbox" id="femaleType" name="genderType" value="female">Female
+                    </div>
                     <br>
-                    <label for="genderType">Select Gender</label><br>
-                    <input type="radio" id="genderType" name="genderType">Male
-                    <input type="radio" id="genderType" name="genderType">Female
-                    <input type="radio" id="genderType" name="genderType">Male or Female
+                    <p>Select Size</p>
+                    <div class="animalSize">
+                        <input type="checkbox" id="smallType" name="sizeType" value="small">Small
+                        <input type="checkbox" id="mediumType" name="sizeType" value="medium">Medium
+                        <br>
+                        <input type="checkbox" id="largeType" name="sizeType" value="large">Large
+                        <input type="checkbox" id="extraLargeType" name="sizeType" value="xLarge">Extra Large  
+                    </div>
                     <br>
+                    <p>Select Age</p>
+                    <div class="animalAge">
+                        <input type="checkbox" id="babyType" name="ageType" value="baby">Baby
+                        <input type="checkbox" id="youngType" name="ageType" value="young">Young
+                        <br>
+                        <input type="checkbox" id="adultType" name="ageType" value="adult">Adult
+                        <input type="checkbox" id="seniorType" name="ageType" value="senior">Senior
+                    </div>
                     <br>
-                    <label for="sizeType">Select Size</label><br>
-                    <input type="checkbox" id="sizeType" name="sizeType">Small
-                    <input type="checkbox" id="sizeType" name="sizeType">Medium
-                    <input type="checkbox" id="sizeType" name="sizeType">Large
-                    <input type="checkbox" id="sizeType" name="sizeType">Extra Large  
+                    <p>Location (City, State or Zip Code):</p>
+                    <div>
+                        <input type="text" id="location" name="location" placeholder="Louisville, KY or 40204" value="location"> 
                     <br>
+                    <p>Distance (Miles):</p>
+                    <input type="text" id="distance" name="distance" placeholder="50" value="distance"><br>
                     <br>
-                    <label for="ageType">Select Age</label><br>
-                    <input type="checkbox" id="ageType" name="ageType">Baby
-                    <input type="checkbox" id="ageType" name="ageType">Young
-                    <input type="checkbox" id="ageType" name="ageType">Adult
-                    <input type="checkbox" id="ageType" name="ageType">Senior
-                    <br>
-                    <br>
-                    <label for="location">Location (City, State or Zip Code):</label><br>
-                    <input type="text" id="location" name="location" placeholder="Louisville, KY or 40204"> 
-                    <br>
-                    <br>
-                    <label for="distance">Distance (Miles):</label><br>
-                    <input type="text" id="distance" name="distance" placeholder="50"><br>
-                    <br>
+
+                        .animalGender, .animalSize, .animalAge
+                        
                     <input type="submit">                              
                 </form> 
                 <br>
