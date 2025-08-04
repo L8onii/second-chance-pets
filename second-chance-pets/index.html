@@ -8,8 +8,6 @@
 </head>
 <body>
     <script src="./scripts/scripts.js"></script>
-    <!-- <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="https://unpkg.com/@petfinder/petfinder-js/dist/petfinder.min.js"></script> -->
     <header>Welcome to Second Chance Pets</header>
     <div class="navbar">
         <ul>
@@ -22,15 +20,11 @@
     </div>
         <h2 class="mission-statement">Our mission is to help give shelter animals a second chance by connecting them with loving families. We believe every animal deserves a life beyond the cage — one filled with care, companionship, and a forever home.</h2>
             <div class="bannerAndPhotos">
-                <div class="catPhoto">
-                    <img src="./photos/orange-tabby.jpg">
-                </div>
+                <div id="catPhoto"></div>
                 <div class="topBanner">
                     <img src="./photos/animal_banner.png">
                 </div>
-                <div class="dogPhoto">
-                    <img src="./photos/chocolate-labrador.jpg">
-                </div>
+                <div id="dogPhoto"></div>
             </div>
             <div class="inputFormDiv">
                 <form id="inputForm" class="inputForm">
@@ -104,5 +98,6 @@
             </a>
         </div>
 </footer>
+<script src="./scripts/random-pet-apis.js"></script>
 </body>
 </html>
